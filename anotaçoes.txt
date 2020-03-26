@@ -1,0 +1,30 @@
+# inicia projeto node
+npm init -y
+
+# instala express
+npm install express
+
+# criar projeto react
+# se nao existir o create-react-app instalar com: npm install -g create-react-app
+npx create-react-app frontend 
+
+# install nodemon
+npm install nodemon -D
+
+# query builder knex
+npm install knex
+
+# instalar driver do banco que vai usar
+npm install sqlite3
+
+# executar o knex
+npm knex init
+
+# criar migrations no knex
+npx knex migrate:make create_ongs
+
+# executar migrations
+npx knex migrate:latest
+
+# instal cors - determina quem pode acessar a aplicação
+npm install cors

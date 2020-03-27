@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './styles.css';
 import { Link, useHistory } from 'react-router-dom';
 import logoImg from '../../assets/logo.svg';
-import { FiArrowLeft, FiPower, FiTrash2 } from 'react-icons/fi';
+import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
 
 export default function NewIncident() {

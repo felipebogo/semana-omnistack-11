@@ -28,3 +28,20 @@ npx knex migrate:latest
 
 # instal cors - determina quem pode acessar a aplicação
 npm install cors
+
+# configurar o emmet para o react
+# settings.json adicionar
+"emmet.syntaxProfiles": {"javascript": "jsx"},
+"emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+
+# instalação de icones
+npm install react-icons
+
+# instalar rotas no react 
+npm install react-router-dom
+
+# estudar tipos de display no css: flex,grid...
+
+# instalar cliente http para fazer chamada do backend
+npm install axios

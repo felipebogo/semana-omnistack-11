@@ -80,3 +80,51 @@ expo install expo-mail-composer
 
 # nao posso ui intl no mobil
 npm install intl
+
+# biblioteca para validações celebrate
+npm install celebrate
+
+# TDD - Teste Driven Developement
+
+# frameworkd de testes
+npm install jest
+
+# iniciar
+npx jest --init
+# ? Would you like to use Jest when running "test" script in "package.json"? » (Y/n) => Y
+# Choose the test environment that will be used for testing node
+# Do you want Jest to add coverage reports? N
+#  Automatically clear mock calls and instances between every test y
+
+# para teestar 
+npm test
+
+# cross-env multiplos ambientes
+npm install cross-env
+
+# supertest - para fazer requisiçoes http nos testes de integração (obs nao é usado o axios pq ele é recomendado para chamads do front end)
+npm install supertest -D # -D para dependencia de desenvolvimento
+
+#################################
+# deploy
+###################################
+# node
+# para testar heroku.com - mt caro para produção
+# viddeo para subir no heroko - https://www.youtube.com/watch?v=-j7vLmBMsEU
+
+# produção
+# digital ocean - pq a precificação é previsivel
+# https://www.youtube.com/watch?v=ICIz5dE3Xfg
+# grandes aplicações - AWS Amazon web services, google cloud plataform, microsoft Azure
+
+# front-end
+# para testes - netlify.com
+# especifico para front-end
+
+# Gerando apk com expo para react native
+# https://www.youtube.com/watch?v=wYMvzbfBdYI
+
+# padroes de código: ESLint e Prettier
+# styled components - para estilização
+
+# autenticação jwt
